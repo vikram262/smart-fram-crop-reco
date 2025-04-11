@@ -15,32 +15,7 @@ label_encoder = joblib.load('label_encoder.pkl')
 
 # Function to display the homepage
 def show_homepage():
-    st.title("AI-Powered Crop Recommendation System for India: District and Month-Specific Insights for Optimized Agricultural Practices")
-    st.header("Project Overview")
-    st.write("""
-        This comprehensive project aims to develop an AI-driven crop recommendation system specifically designed for Indian farmers. 
-        By leveraging advanced machine learning algorithms, the system analyzes critical environmental factors such as temperature, 
-        humidity, pH, and rainfall to provide district and month-specific crop recommendations. The primary goal is to empower farmers 
-        with data-driven insights, thereby enhancing agricultural productivity and sustainability across diverse regions of India. 
-        The system ranks the best crops to plant based on the given conditions, ensuring informed decision-making for optimized farming practices.
-    """)
-    st.header("Project Steps")
-    st.write("""
-        1. **Data Collection**: Gather data on environmental factors such as temperature, humidity, pH, and rainfall for various districts and months.
-        2. **Data Preprocessing**: Clean and preprocess the data to ensure it is suitable for training the machine learning model.
-        3. **Model Training**: Train a machine learning model using the preprocessed data to predict the best crops to plant based on the input conditions.
-        4. **Model Evaluation**: Evaluate the model's performance using appropriate metrics to ensure its accuracy and reliability.
-        5. **Web Interface Development**: Develop a user-friendly web interface using Streamlit to allow farmers to input their data and get crop recommendations.
-    """)
-    st.header("How to Use")
-    st.write("""
-        1. Click the "Go to Crop Recommendation" button below.
-        2. Select your district and month.
-        3. Input the values for Nitrogen (N), Phosphorus (P), Potassium (K), pH, temperature, and humidity.
-        4. Click the "Predict" button to get the top crop recommendations based on your input.
-    """)
-    if st.button("Go to Crop Recommendation"):
-        st.session_state.page = "Crop Recommendation"
+    st.session_state.page = "Crop Recommendation"
 
 # Function to display the crop recommendation page
 def show_crop_recommendation():
