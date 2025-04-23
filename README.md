@@ -15,25 +15,6 @@ This project develops an AI-driven crop recommendation system tailored for India
 - **Visualization**: Visualizes model accuracies for each crop using Seaborn and Matplotlib.
 - **Deployment**: Deploys the application on Streamlit Cloud for real-time crop recommendations.
 
-## Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/ravikant-diwakar/major_8th_sem
-   ```
-   ```sh
-   cd your-repo-name
-   ```
-2. Create a virtual environment and activate it:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use venv\Scripts\activate
-   ```
-3. Install the required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 1. Ensure `Combined_Crop_recommendation.parquet` is in the same directory as `app.py`.
@@ -76,12 +57,3 @@ This project develops an AI-driven crop recommendation system tailored for India
 ## Deployment
 
 - **Streamlit Cloud**: Deploys the application on Streamlit Cloud for real-time crop recommendations.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
->>>>>>> ed933dc8 (Initial commit: Upload AI-Powered Crop Assistant System)
